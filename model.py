@@ -17,8 +17,8 @@ validation_data = load_dataset('validation_tasks_dataset.csv')
 classifier = NaiveBayesClassifier(training_data)
 
 # Function to evaluate the classifier on a dataset
-def evaluate_classifier(classifier, dataset):
-    accuracy = classifier.accuracy(dataset)
+def evaluate_classifier(classifier_param, dataset):
+    accuracy = classifier_param.accuracy(dataset)
     print(f"Accuracy: {accuracy*100:.2f}%")
     return accuracy
 
