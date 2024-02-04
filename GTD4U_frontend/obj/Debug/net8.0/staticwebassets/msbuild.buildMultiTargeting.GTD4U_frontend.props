@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GTD4U_frontend.props" />
+</Project>
